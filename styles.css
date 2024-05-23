@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    padding: 5px;
+}
+
+header {
+    display:flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5b0540;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 160px); /* Account for header and footer heights */
+}
+
+.hero {
+    text-align: center;
+}
